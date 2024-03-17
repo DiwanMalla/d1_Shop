@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import headphone from "./assets/hero/headphone.png";
 import Products from "./components/Products/Products";
 import smartwatch from "./assets/category/smartwatch2-removebg-preview.png";
+import Blogs from "./components/Blogs/Blogs";
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
@@ -38,6 +39,7 @@ const App = () => {
       <Banner data={BannerData} />
       <Products />
       <Banner data={BannerData2} />
+      <Blogs />
     </div>
   );
 };
