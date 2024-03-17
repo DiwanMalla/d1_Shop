@@ -47,7 +47,9 @@ const Banner: React.FC<BannerProps> = ({ data }) => {
               <Button
                 text="Shop Now"
                 bgColor="bg-white"
-                textColor="text-primary"
+                textColor={
+                  data.bgColor == "#f42c37" ? "text-primary" : "text-green-400"
+                }
               />
             </div>
           </div>

@@ -6,15 +6,26 @@ import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import headphone from "./assets/hero/headphone.png";
 import Products from "./components/Products/Products";
+import smartwatch from "./assets/category/smartwatch2-removebg-preview.png";
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
   date: "10 Jan to 28 Jan",
   image: headphone,
-  title2: "Air Solo Bass",
+  title2: "Smart Solo",
   title3: "Winter Sale",
   title4: "Lorem ipsum lorem ipsum,ipsum lorem ipsum ipsum lorem ipsum",
   bgColor: "#f42c37",
+};
+const BannerData2 = {
+  discount: "30% OFF",
+  title: "Happy Hours",
+  date: "10 Jan to 28 Jan",
+  image: smartwatch,
+  title2: "Air Solo Bass",
+  title3: "Winter Sale",
+  title4: "Lorem ipsum lorem ipsum,ipsum lorem ipsum ipsum lorem ipsum",
+  bgColor: "#2dcc6f",
 };
 const App = () => {
   return (
@@ -26,6 +37,7 @@ const App = () => {
       <Services />
       <Banner data={BannerData} />
       <Products />
+      <Banner data={BannerData2} />
     </div>
   );
 };
