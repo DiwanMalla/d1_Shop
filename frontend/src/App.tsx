@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import headphone from "./assets/hero/headphone.png";
+import Products from "./components/Products/Products";
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
@@ -24,6 +25,7 @@ const App = () => {
       <Category2 />
       <Services />
       <Banner data={BannerData} />
+      <Products />
     </div>
   );
 };
