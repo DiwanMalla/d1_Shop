@@ -8,6 +8,8 @@ import headphone from "./assets/hero/headphone.png";
 import Products from "./components/Products/Products";
 import smartwatch from "./assets/category/smartwatch2-removebg-preview.png";
 import Blogs from "./components/Blogs/Blogs";
+import Partners from "./components/Partners/Partners";
+import Footer from "./components/Footer/Footer";
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
@@ -40,6 +42,8 @@ const App = () => {
       <Products />
       <Banner data={BannerData2} />
       <Blogs />
+      <Partners />
+      <Footer />
     </div>
   );
 };
